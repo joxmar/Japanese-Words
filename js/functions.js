@@ -51,6 +51,7 @@ cat.addEventListener('click', function(el){
 		translationContainer.style.display = 'block';				
 		// call trasnlation container and pass category array name by removing the # from the string and call it as variable. cool!
 		showCategory(window[catName.replace('#','')], catNameStr);
+		window.scrollTo(0, 0);
 	});
 });
 
