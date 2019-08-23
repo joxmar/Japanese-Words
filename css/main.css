@@ -1,0 +1,151 @@
+/* Reset Everything... Fuck it */
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100vh;
+	width: 100vw;
+}
+
+body {
+	background: rgb(248, 248, 248);
+	display: block;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 100%;
+	text-transform: capitalize;	
+}
+
+a {
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: 700;
+}
+/* Navigation */
+.header {		
+	padding: 5%;	
+}
+
+.navigation {
+	display: block;
+	height: 100%;	
+}
+
+h1 {
+	line-height: 2;
+	font-size: 1.6em;
+}
+
+.navigation ul {	
+	display: flex;	
+	flex-flow: column wrap;
+	list-style: none inside;
+}
+
+.navigation ul li {
+	border-bottom: 1px solid #dadada;
+}
+
+.navigation ul li a {
+	display: block;
+	padding: 10px 0;
+	font-size: 1.25em;
+	color: #131313;
+}
+
+
+
+/* Layout */
+.translations {
+	display: none;
+	height: 100vh;
+}
+
+.back-to-menu {
+	display: inline-block;
+	transform: rotate(90deg);
+}
+
+.translations h2 {
+	height: 15vh;
+}
+
+.translations section {
+	background: white;
+	border-radius: 35px 35px 0 0;
+	box-shadow: 0 0 16px 16px #efefef;
+	min-height: 85vh;
+}
+
+.translations h2,
+.translations section {
+	padding: 20px;
+}
+
+section table {
+	width: 100%;
+}
+
+section table td {
+	border-bottom: 1px solid #dadada;
+	padding: 10px 0;
+	vertical-align: top;
+	font-size: 1.25em;
+}
+
+section table td:nth-child(2)	{
+	text-align: center;
+}
+
+section table td span {
+	display: block;	
+}
+
+.jp {
+	color: #9e9e9e;	
+	font-size: .825em;	
+}
+
+section table td:last-child {
+	width: 60px;
+}
+.emoji {	
+	font-size: 1.2em;
+	text-align: right;
+}
+
+/* for colors */
+.emoji-circle {
+	border-radius: 50px;
+	float: right;
+	height: 27px;
+	width: 27px;
+}
+
+.negro {
+	background: black;
+}
+.azul {
+	background: blue;
+}
+.rojo {
+	background: red;
+}
+.amarillo {
+	background: yellow;
+}
+.verde {
+	background: green;
+}
+.rosa {
+	background: pink;
+}
+.anaranjado {
+	background: orange;
+}
+
+
