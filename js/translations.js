@@ -45,22 +45,43 @@ var food = [
 ];
 
 
-var attentions = [];
+var attentions = [
+	// ['peligro', 'Kiken', '危険', '']
+];
 
 
-var courtesy = [];
+var courtesy = [
+// gracias
+
+];
 
 
-var greetings = [];
+var greetings = [
+//  buenas tardes
+// buenas noches
+];
 
 
 var adjetives = [];
 
 
-var transport = [];
+var transport = [
+	['tren', 'Densha', '電車', '🚅'],
+	['avion', 'Hikōki', '飛行機', '✈'],
+	['bus', 'Basu', 'バス', '🚌'],
+	['carro', 'Kuruma', '車', '🚗'],
+	['taxi', 'Takushī', 'タクシー', '🚕'],
+	['bicicleta', 'Jitensha', '自転車', '🚲']
+];
 
 
-var electronics = [];
+var electronics = [
+	['telephono', 'Tenwabangō', '電話番号', '📞'],
+	['smartphone', 'Geitaidenwa', '携帯電話', '📱'],
+	['compuradora', 'Konpyūtā', 'コンピューター', '💻'],
+	['television', 'Terebi', 'テレビ', '📺'],
+	['microondas', 'Denjirenji', '電子レンジ', ''],
+];
 
 
 var persons = [];
@@ -75,7 +96,13 @@ var expressions = [];
 var nouns = [];
 
 
-var places = [];
+var places = [
+// estacion de treen 🚉
+// hotel
+// bus stop
+// templo
+// toilet 🚽
+];
 
 var action = [
 	['leer', 'yomu', '読む', '📖'],
