@@ -7,7 +7,8 @@ var colors = [
 	['verde', 'Midoriiro', '緑色', ''],
 	['rosa', 'pinku', 'ピンク', ''],
 	['anaranjado', 'Orenji-iro', 'オレンジ色', ''],
-	['purpura', 'Pāpuru', 'パープル', '']
+	['purpura', 'Pāpuru', 'パープル', ''],
+	['cafe', 'Kasshoku', '褐色', '']
 ];
 
 
@@ -24,11 +25,13 @@ var time = [
 var food = [
 	['comida', 'Tabemono', '食べ物', '🍱'],
 	['bebida', 'nomu', '飲む', '🍹'],
+	['dulces', 'Kyandī', 'キャンディー', '🍭'],
+	['postre', 'Dezāto', 'デザート', '🍰'],
+	['agua', 'mizu', '水','💧'],
 	['alcohol', 'o zake', 'お酒', '🍺'],
 	['vegetales', 'yasai', '野菜', '🍅'],
 	['arroz', 'gohan', 'ご飯', '🍚'],
 	['bola de arroz', 'onigiri', 'おにぎり', '🍙'],
-	['agua', 'mizu', '水','💧'],
 	['cafe', 'ko-hi', 'コーヒー', '☕'],
 	['curry', 'Karē', 'カレー', '🍛'],
 	['ramen', 'Rāmen', 'ラーメン', '🍜'],
@@ -51,14 +54,19 @@ var attentions = [
 
 
 var courtesy = [
-// gracias
-
+	['gracias', 'Arigatōgozaimashita', 'ありがとうございました', ''],
+	['por favor', 'Onegaishimasu', 'お願いします', ''],
+	['bienvenido', 'Yōkoso', 'ようこそ', ''],
+	['permiso', 'Sumimasen', 'すみません', ''],
+	['disculpas', "Gomen'nasai", 'ごめんなさい', '']
 ];
 
 
 var greetings = [
-//  buenas tardes
-// buenas noches
+	['buenos dias', 'Ohayōgozaimasu', 'おはようございます', ''],
+	['hola, buenas tardes', "Kon'nichiwa", 'こんにちは', ''],
+	['buenas noches', 'Konbanwa', 'こんばんは', ''],
+	['buenas noches (dormir)', 'Oyasuminasai', 'おやすみなさい', '']
 ];
 
 
@@ -84,7 +92,39 @@ var electronics = [
 ];
 
 
-var persons = [];
+var days = [
+	['hoy', 'Kyō', '今日', ''],
+	['ayer', 'Kinō', '昨日', ''],
+	['mañana', 'Ashita', '明日', ''],
+	['domingo', 'Nichiyōbi', '日曜日', ''],
+	['lunes', 'Getsuyōbi', '月曜日', ''],
+	['martes', 'Kayōbi', '火曜日', ''],
+	['miercoles', 'Suiyōbi', '水曜日', ''],
+	['jueves', 'Mokuyōbi', '木曜日', ''],
+	['viernes', "Kin'yōbi", '金曜日', ''],
+	['sabado', 'Doyōbi', '土曜日', ''],
+	['enero', 'Ichigatsu', '一月', ''],
+	['febrero', 'nigatsu', '二月', ''],
+	['Abril','shi-gatsu ', '四月', ''],
+	['Mayo','go-gatsu', '五月', ''],
+	['Junio','roku-gatsu', '六月', ''],
+	['Julio','shichi-gatsu', '七月', ''],
+	['Agosto','hachi-gatsu', '八月', ''],
+	['Septiembre','ku-gatsu ', '九月', ''],
+	['Octubre','juu-gatsu', '十月', ''],
+	['Noviembre','juuichi-gatsu', '十一月', ''],
+	['Diciembre','juuni-gatsu', '十二月', '']
+];
+var persons = [
+	['mama', 'Okāsan', 'お母さん', ''],
+	['papa', 'Otōsan', 'お父さん', ''],
+	['hija', 'Musume', '娘' , ''],
+	['hijo', 'Musuko', '息子', ''],
+	['hermana', 'Imōto', '妹', ''],
+	['hermano', 'Kyōdai', '兄弟', ''],
+	['niño', 'Otokonoko', '男の子', ''],
+	['niña', "On'nanoko", '女の子', '']
+];
 
 
 var directions = [];
@@ -93,7 +133,14 @@ var directions = [];
 var expressions = [];
 
 
-var nouns = [];
+var nouns = [
+	['yo', 'Watashi', '私' ,''],
+	['tu, ustedes', 'Anata', 'あなた', ''],
+	['el', 'Kare', '彼', ''],
+	['ella', 'Kanojo', '彼女', ''],
+	['nosotros', 'Watashitachi', '私たち', ''],
+	['ellos', 'Karera', '彼ら', '']
+];
 
 
 var places = [
