@@ -70,11 +70,18 @@ var greetings = [
 ];
 
 
-var adjetives = [];
+var adjetives = [
+	['grande', 'Ōkī', '大きい', ''],
+	['pequeno', 'Chīsai', '小さい', ''],
+	['bonito', 'Kireina', 'きれいな', ''],
+	['feo', 'Minikui', '醜い', ''],
+	['miedoso', 'Kowai', '怖い', ''],
+	['adorable', 'Kawaii', '可愛い', '']
+];
 
 
 var transport = [
-	['tren', 'Densha', '電車', '🚅'],
+	['tren', 'Ressha', '列車', '🚅'],
 	['avion', 'Hikōki', '飛行機', '✈'],
 	['bus', 'Basu', 'バス', '🚌'],
 	['carro', 'Kuruma', '車', '🚗'],
@@ -127,7 +134,14 @@ var persons = [
 ];
 
 
-var directions = [];
+var directions = [
+	['arriba', 'Toppu', 'トップ', ''],
+	['abajo', 'Daun', 'ダウン', ''],
+	['derecha', 'Migi', '右', ''],
+	['izquierda', 'Hidari', '左', ''],
+	['adelante', 'Susumu', '進む', ''],
+	['atras', 'Modoru', '戻る', '']
+];
 
 
 var expressions = [];
@@ -144,11 +158,12 @@ var nouns = [
 
 
 var places = [
-// estacion de treen 🚉
-// hotel
-// bus stop
-// templo
-// toilet 🚽
+	['estacion de tren', 'Tetsudō-eki', '鉄道駅',  '🚉'],
+	['hotel', 'Hoteru', 'ホテル', '🏨'],
+	['parada de bus', 'Basutei', 'バス停', '🚏'],
+	['templo', 'Jinja', '神社', '🏮'],
+	['toilet', 'Toire', 'トイレ', '🚽'],
+	['mercadito', 'Konbini', 'コンビニ', '🏪']
 ];
 
 var action = [
