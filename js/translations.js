@@ -76,7 +76,9 @@ var adjetives = [
 	['bonito', 'Kireina', 'きれいな', ''],
 	['feo', 'Minikui', '醜い', ''],
 	['miedoso', 'Kowai', '怖い', ''],
-	['adorable', 'Kawaii', '可愛い', '']
+	['adorable', 'Kawaii', '可愛い', ''],
+	// delicioso
+	// sabe feo
 ];
 
 
@@ -137,12 +139,17 @@ var persons = [
 
 
 var directions = [
-	['arriba', 'Toppu', 'トップ', ''],
-	['abajo', 'Daun', 'ダウン', ''],
+	['Aqui', 'Koko', 'ここ', ''],
+	['alla', 'Asoko', 'そこ', ''],
+	['eso', 'are', 'あれ', ''],
+	['esto', 'Kore', 'これ', ''],
+	['donde', 'Doko', 'どこ', '' ],
 	['derecha', 'Migi', '右', ''],
 	['izquierda', 'Hidari', '左', ''],
 	['adelante', 'Susumu', '進む', ''],
-	['atras', 'Modoru', '戻る', '']
+	['atras', 'Modoru', '戻る', ''],
+	['arriba', 'Toppu', 'トップ', ''],
+	['abajo', 'Daun', 'ダウン', '']	
 ];
 
 
@@ -189,4 +196,24 @@ var objects = [
 	['cartera', 'Saifu', '財布', '👜'],
 	['maleta', 'Sūtsukēsu', 'スーツケース', '💼'],
 	['mochila', 'Bakku pakku', 'バックパック',	'🎒']
+]
+
+var phrases = [
+	['esta bien si le tomo una foto?', 
+		'Anata no shashin wo totte mo iidesu ka?', 
+		'あなた の しゃしん を とって も いいです か？'
+	],
+	['Disculpe no hablo bien en japones', 
+		"Gomen'nasai, watashi wa nihongo ga amari hanasemasen",
+		'ごめんなさい、私は日本語があまり話せません'
+	],
+	['Habla ingles?', 
+		'Eigo o hanasemasu ka',
+		'英語を話せますか'
+	],
+	[ 'Donde esta el baño?',
+		'Toire wa doko desu ka?',
+		'お手洗いはどこですか？'
+	]
+
 ]

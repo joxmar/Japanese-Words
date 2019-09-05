@@ -119,21 +119,32 @@ function showCategory(arr,catName){
 		var word = document.createTextNode(arr[i][0]);
 		var romanji = document.createTextNode(arr[i][1]);
 		var hiragana = document.createTextNode(arr[i][2]);
-		var emoji = document.createTextNode(arr[i][3]);
 
-		// spanish word and add to td then to row
-		wordTd.appendChild(word);
-		tableTr.appendChild(wordTd);
-		// romanji word then add it to td, then hiragana added to span then span to td then td to tr
-		jpTd.appendChild(romanji);
-		jpChar.appendChild(hiragana);
-		jpTd.appendChild(jpChar);
-		tableTr.appendChild(jpTd);
-
-		// emoji td
-		emojiSpan.appendChild(emoji);
-		emojiTd.appendChild(emojiSpan);
-		tableTr.appendChild(emojiTd);		
+		if (catName !== 'Frases'){		
+				var emoji = document.createTextNode(arr[i][3]);
+		
+				// spanish word and add to td then to row
+				wordTd.appendChild(word);
+				tableTr.appendChild(wordTd);
+				// romanji word then add it to td, then hiragana added to span then span to td then td to tr
+				jpTd.appendChild(romanji);
+				jpChar.appendChild(hiragana);
+				jpTd.appendChild(jpChar);
+				tableTr.appendChild(jpTd);
+		
+				// emoji td
+				emojiSpan.appendChild(emoji);
+				emojiTd.appendChild(emojiSpan);
+				tableTr.appendChild(emojiTd);		
+		} else {
+			var regSpan = document.createElement('span');
+			regSpan.appendChild(word);
+			wordTd.appendChild(regSpan);
+			wordTd.appendChild(romanji);
+			jpChar.appendChild(hiragana);			
+			wordTd.appendChild(jpChar);
+			tableTr.appendChild(wordTd);
+		}
 
 		
 		catDataTable.appendChild(tableTr);
