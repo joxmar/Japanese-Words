@@ -130,7 +130,9 @@ var persons = [
 	['hermana', 'Imōto', '妹', ''],
 	['hermano', 'Kyōdai', '兄弟', ''],
 	['niño', 'Otokonoko', '男の子', ''],
-	['niña', "On'nanoko", '女の子', '']
+	['niña', "On'nanoko", '女の子', ''],
+	['hombre', 'O toko', 'おとこ', '🚶'],
+	['mujer', 'Josei', '女性', '🙍']
 ];
 
 
@@ -163,8 +165,9 @@ var places = [
 	['parada de bus', 'Basutei', 'バス停', '🚏'],
 	['templo', 'Jinja', '神社', '🏮'],
 	['restuarante', 'Resutoran', 'レストラン', '🍱'],
-	['toilet', 'Toire', 'トイレ', '🚽'],
+	['hospital', 'Byōin', '病院', '🏥'],
 	['mercadito', 'Konbini', 'コンビニ', '🏪'],
+	['toilet', 'Toire', 'トイレ', '🚽'],
 ];
 
 var action = [
