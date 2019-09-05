@@ -162,8 +162,9 @@ var places = [
 	['hotel', 'Hoteru', 'ホテル', '🏨'],
 	['parada de bus', 'Basutei', 'バス停', '🚏'],
 	['templo', 'Jinja', '神社', '🏮'],
+	['restuarante', 'Resutoran', 'レストラン', '🍱'],
 	['toilet', 'Toire', 'トイレ', '🚽'],
-	['mercadito', 'Konbini', 'コンビニ', '🏪']
+	['mercadito', 'Konbini', 'コンビニ', '🏪'],
 ];
 
 var action = [
