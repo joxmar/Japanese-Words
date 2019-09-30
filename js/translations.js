@@ -199,6 +199,10 @@ var objects = [
 ]
 
 var phrases = [
+	['Dos adultos y dos niñas por favor',
+		'Otona 2-mei to kodomo 2-mei o onegaishimasu',
+		'大人2名と子供2名をお願いします'
+	],
 	['esta bien si le tomo una foto?', 
 		'Anata no shashin wo totte mo iidesu ka?', 
 		'あなた の しゃしん を とって も いいです か？'
